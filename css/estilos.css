@@ -1,0 +1,19 @@
+.container{
+  margin-top: 0;
+  background: red;
+}
+.cabecera{
+  background-color: gray;
+  min-height: 15rem;
+}
+.logo{
+  min-height: 15rem;
+  height: 50px;
+  width: 200px;
+  float:left;
+}
+.red-social {
+  height: 50px;
+  width: 50px;
+  margin-top: 10rem;
+}
