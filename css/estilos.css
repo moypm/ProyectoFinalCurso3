@@ -1,6 +1,6 @@
 .container{
   margin-top: 0;
-  background: red;
+  background: orange;
 }
 .cabecera{
   background-color: gray;
@@ -12,8 +12,19 @@
   width: 200px;
   float:left;
 }
+.red-grupo{
+  text-align: right;
+}
 .red-social {
   height: 50px;
   width: 50px;
   margin-top: 10rem;
+}
+.menuppal{
+  color: white;
+}
+@media (max-width: 768px) {
+  .red-grupo{
+    text-align: center;
+  }
 }

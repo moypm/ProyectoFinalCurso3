@@ -5,18 +5,41 @@
         <meta name="viewport" content="width=device-width,user-scalable=no">
         <title>Bootstrap Proyecto Final 1</title>
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/estilos.css">
     </head>
+    <!-- Contenedor principal de la página -->
     <body class="container">
+      <!-- Cabecera de la página se coloca con todo y el menú-->
       <header class="cabecera">
             <img src="img/logomusica.png" alt="logo principal" class="logo">
-            <div class="text-right">
+            <!-- Imagenes de las redes sociales-->             
+            <div class="red-grupo">
               <a href="#"><img class="img-rounded red-social" src="img/logo_youtube.svg"/></a>
               <a href="#"><img class="img-rounded red-social" src='img/logo_facebook.svg'/></a>
               <a href="#"><img class='img-rounded red-social' src='img/logo_instagram.svg'/></a>
               <a href="#"><img class='img-rounded red-social' src='img/logo_pinterest.svg'/></a>
               <a href="#"><img class='img-rounded red-social' src='img/logo_twiter.svg'/></a>
             </div>
+            <!-- Menu principal de la página -->
+            <nav class="navbar navbar-inverse" role="navigation">
+                    <ul class="nav nav-justified">
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Inicio</a></li>
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Grupos</a></li>
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Artistas</a></li>
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Top 10</a></li>
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Letras</a></li>
+                      <li class="nav-item"><a class="menuppal nav-item nav-link" href="#">Acordes</a></li>
+                    </ul>
+            </nav>
       </header>
+      <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-12">
+          <h1>Tributo a Los Mejores</h1>
+        </div>
+        <div class="col-lg-3 col-md-3">
+          <h1>Búsqueda</h1>
+        </div>
+      </div>
     </body>
 </html>
