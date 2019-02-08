@@ -1,6 +1,7 @@
 .container{
   margin-top: 0;
   background: orange;
+  padding-left: 0x;
 }
 .cabecera{
   background-color: gray;
@@ -22,6 +23,27 @@
 }
 .menuppal{
   color: white;
+}
+.fondo{
+  background-color: white;
+  padding: 0px;
+}
+.row{
+  margin-left: 0px;
+}
+.img_musica{
+  height: 180px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.iconify{
+  height: 50px;
+  width: 50px
+}
+.articulo1{
+background-color: white;
+padding-top: 10px;
 }
 @media (max-width: 768px) {
   .red-grupo{
