@@ -37,7 +37,7 @@
   margin: 0 auto;
   padding: 10px;
 }
-.iconify{
+.img-comentario{
   height: 50px;
   width: 50px
 }
@@ -45,8 +45,27 @@
 background-color: white;
 padding-top: 10px;
 }
+.lista-buscar{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.img-buscar{
+  height: 10px;
+  width: 10px;
+  padding-left: 6px;
+  padding-top: 4px;
+  padding-right: 20px;
+  padding-bottom: 2px;
+}
+.input-group-addon{
+  height: 25px;;
+}
 @media (max-width: 768px) {
   .red-grupo{
     text-align: center;
+  }
+  .nav{
+    display: flex;
+    flex-direction: column;
   }
 }
