@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Foundation Proyecto Final Curso 3</title>
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen">
+    <link rel="stylesheet" href="css/foundation-icons.css" media="screen">
+    <link rel="stylesheet" href="css/app.css" media="screen">
+  </head>
+  <body class="principal">
+  <!--    <div class="row fondo">
+  <!--Titulo de la pagina en la columna izquierda y vacío en la derecha-->
+    <div class="row titulo">
+      <div class="column large-4">
+        <h2>Cocinando</h2>
+        <div class="row column text-right">
+            <h5>Ama lo bueno</h5>
+        </div>
+      </div>
+    </div>
+  <!--contenedor principal del contenido web-->
+    <div class="row contenido">
+      <!--contenedor  del contenido de favoritos-->
+      <div class="column large-4">
+        <div class="row favoritos">
+          <!--input de búsqueda -->
+          <div class="column large-11 buscar-opc">
+            <input type="text"/>
+          </div>
+          <div class="column large-1 buscar-but">
+            <button type="search" class="button color-favorito" name="buscar"> <i class="step fi-magnifying-glass"></i></button>
+          </div>
+          <!--MEnu de favoritos -->
+          <div class="row column large-12">
+            <ul class="vertical menu align-center menu-favorito texto-favorito">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Mi plato favorito</a></li>
+              <li><a href="#">Mis recetas</a></li>
+            </ul>
+          </div>
+          <div class="column large-12"><h5></br>Favoritos:</h5></div>
+          <!--imagenes de favoritos -->
+          <div class="row ">
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo1.jpg" alt="Platillos"></a>
+            </div>
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo2.jpg" alt="Platillos"></a>
+            </div>
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo3.jpg" alt="Platillos"></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo4.jpg" alt="Platillos"></a>
+            </div>
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo5.jpg" alt="Platillos"></a>
+            </div>
+            <div class="large-4 columns">
+              <a href="#"><img class="thumbnail" src="img/platillo6.jpg" alt="Platillos"></a>
+            </div>
+          </div>
+          <!--imagenes de favoritos -->
+          <div class="row column">
+            <div class="column large-12"><h5></br>Historial:</h5></div>
+            <ul class ="text-favorito">
+              <li><a href="#">Comida mexicana</a></li>
+              <li><a href="#">Comida italiana</a></li>
+              <li><a href="#">Postres sin azúcar</a></li>
+              <li><a href="#">Cortes de carne</a></li>
+              <li><a href="#">Vegetarianos a comer</a></li>
+            </ul>
+          </div>
+
+      </div>
+    </div> <!--fin de contenedor de favoritos-->
+      <!--contenedor  del contenido columna articulos-->
+    <div class="column large-8">
+      <div class=" articulos">
+        <h4>Aguachile</h4>
+        </br>
+        <h5>16 de Mayo de 2018</h5>
+        <img class="thumbnail" src="img/articulo1.jpg" alt="articulo1">
+        <p>
+          El origen del aguachile en la zona serrana de Sinaloa, se hace originalmente con agua hervida y los chiles originarios del estado: los chiles “chiltepines”, unos chiles redondos y pequeños que se dejan secar en la planta dándole un picor (por el nivel de capsaicina) sobresaliente.
+          En la sierra se hacía carne machaca, se le agregaba agua hirviendo y se le agregaban cinco o seis chiles de esa variedad. Con el tiempo se fueron bajando esos chiles a la ciudad y fueron llegando a las costas y es entonces cuando se hace una réplica de ese chile pero con el ingrediente estrella del estado: el camarón.
+          Agregando un poco de limón, chile piquen, la sal, un poco de pimienta, hasta volverse el plato insignia del estado.
+        </p>
+      </div>
+      <div class="articulos">
+        <label>
+          Escribe tu comentario:
+          <textarea></textarea>
+        </label>
+        <button type="submit" class="success button postfix" name="publicar" value="Publicar">
+          <i class="fi-pencil"></i>
+          Publicar
+        </button>
+        <!--Personas que han comentado -->
+        <div class="row comentarios align-middle">
+          <div class="column large-2"> <img src="img/avatarm.png" class="avatar"> </div>
+          <div class="column large-10"> <span><strong>Maria23:</strong> Excelente Post, se aprende mucho de aqui </span></div>
+        </div>
+        <div class="row comentarios align-middle">
+          <div class="column large-2"> <img src="img/avatarh.png" class="avatar"> </div>
+          <div class="column large-10"> <span><strong>Juan_F:</strong> Me gustaría saber en que temperatura deben estar los camarones para combinarlos con los demás ingredientes. </span></div>
+        </div>
+        <div class="row comentarios align-middle">
+          <div class="column large-2"> <img src="img/avatarh.png" class="avatar"> </div>
+          <div class="column large-10"> <span><strong>Chef_788:</strong> Explicación sencilla sobre el orgien del aguachile </span></div>
+        </div>
+      </div>
+
+      <div class=" articulos2">
+        <h4>Jugos naturales</h4>
+        </br>
+        <h5>15 de Junio de 2017</h5>
+        <img class="thumbnail" src="img/jugos.jpg" alt="articulo1">
+        <p>
+          No hay nada mejor que empezar cada día con energía, vitalidad y buen humor. Sentirse bien no debe ser un lujo, sino un estilo de vida habitual y cotidiano; dormir el tiempo necesario, cenar ligero, o meditar un poco al despertar, son algunas recomendaciones para proveer al cuerpo de esa medicina natural preventiva, la más eficaz para mantener un buen estado de salud. Incluso, la simple acción de tomar un vaso de agua tibia con el jugo de un limón en ayunas, puede hacer una gran diferencia.
+        </p>
+      </div>
+      <div class="articulos">
+        <label>
+          Escribe tu comentario:
+          <textarea></textarea>
+        </label>
+        <button type="submit" class="success button postfix" name="publicar" value="Publicar">
+          <i class="fi-pencil"></i>
+          Publicar
+        </button>
+        <!--Personas que han comentado -->
+        <div class="row comentarios align-middle">
+          <div class="column large-2"> <img src="img/avatarm.png" class="avatar"> </div>
+          <div class="column large-10"> <span><strong>Sofia_45:</strong> A empezar la dieta de jugos </span></div>
+        </div>
+      </div>
+
+
+    </div> <!--fin de contenedor de contenido articulos-->
+
+  </div>
+  <!--  </div> -->
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/apps.js"></script>
+  </body>
+</html>
